@@ -33,9 +33,9 @@ jobs:
              -r cli,htmlextra
 
       -name:  Newman Report
-         if:always()
-         uses:actions/upload-artifact@4.6.2
-         with:
-          name:  Newman Report
-          path:  newman/*.html
+      if:  always()
+      uses:actions/upload-artifact@4.6.2
+      with:
+        name:  Newman Report
+        path:  newman/*.html
       
