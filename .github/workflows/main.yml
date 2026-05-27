@@ -31,7 +31,8 @@ jobs:
              newman run 'Inwarranty-flow collection Copy.postman_collection.json' \
              -e QA.postman_environment.json \
              -d testdata.csv \
-             -r cli,htmlextra
+             -r cli,htmlextra \
+             --reporter-htmlextra-export ./newman/index.html
 
       - name:  Newman Report
         if:  always()
@@ -39,4 +40,10 @@ jobs:
         with:
           name:  Newman Report
           path:  newman/*.html
-      
+
+      - name:  creating github page branch
+        if:  always()
+        uses:  peaceiris/actions-gh-pages@v4.1.0
+        with:
+          github_token:  ${{ secrets.GITHUB_TOKEN }}
+          publish_dir:  newman/
