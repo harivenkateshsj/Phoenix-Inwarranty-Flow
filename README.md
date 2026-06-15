@@ -43,7 +43,7 @@ You can run the Project on your local system for that:
 3. Install Newman using npm ```install -g newman```
 4. Install Newman-reporter-htmlextra npm ```install -g newman-reporter-htmlextra```
 5. Run the Newman Command:
-   ```Newman run 'Inwarranty-flow Collection.postman-collection.json'\ -e QA.postman-environment.json\-d testdata.csv\-r cli,htmlextra\--reporter-htmlextra-export ./newman/index.html```
+   ```Newman run 'Inwarranty-flow Collection Copy.postman-collection.json'\ -e QA.postman-environment.json\-d testdata.csv\-r cli,htmlextra\--reporter-htmlextra-export ./newman/index.html```
 ## Project Structure ##
 ```
 Phoenix Inwarranty Flow
@@ -68,6 +68,6 @@ Hello! I'm **Harivenkatesh**, an Automation Testing and DevOps professional with
 I am passionate about delivering high-quality software through efficient test automation, continuous integration, and modern DevOps practices. I specialize in building **scalable, maintainable, and reliable** automation frameworks, optimizing testing processes, and enabling faster, more dependable software delivery pipelines.
 
 You can connect me over:
-![LinkedIN](https://in.linkedin.com/in/sjhari)
+![LinkedIN](https://www.linkedin.com/in/sjhari/)
 
 
