@@ -68,6 +68,6 @@ Hello! I'm **Harivenkatesh**, an Automation Testing and DevOps professional with
 I am passionate about delivering high-quality software through efficient test automation, continuous integration, and modern DevOps practices. I specialize in building **scalable, maintainable, and reliable** automation frameworks, optimizing testing processes, and enabling faster, more dependable software delivery pipelines.
 
 You can connect me over:
-![LinkedIN](https://www.linkedin.com/in/sjhari/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/sjhari/)
 
 
