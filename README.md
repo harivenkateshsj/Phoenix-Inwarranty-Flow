@@ -1,4 +1,4 @@
-#Postman API Automation Integration with Github Actions#
+# Postman API Automation Integration with Github Actions #
 
 This repository is a demonstration for POC for integrating postman tests with github actions. The tests are written in Postman and they are executed on the VM with the help of Newman and newman-reporter-htmlextra
 
