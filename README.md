@@ -43,9 +43,7 @@ You can run the Project on your local system for that:
 3. Install Newman using npm ``` install -g newman ```
 4. Install Newman-reporter-htmlextra npm ``` install -g newman-reporter-htmlextra ```
 5. Run the Newman Command:
-   ```
-   newman run 'Inwarranty-flow collection Copy.postman_collection.json'\ -e QA.postman-environment.json\-d testdata.csv\-r cli,htmlextra\--reporter-htmlextra-export ./newman/index.html
-   ```bash
+   ```newman run 'Inwarranty-flow collection Copy.postman_collection.json'\ -e QA.postman-environment.json\-d testdata.csv\-r cli,htmlextra\--reporter-htmlextra-export ./newman/index.html```
 ## If you plan to run this job from Jenkins, use the following command: ##
     ```
     newman run 'Inwarranty-flow collection Copy.postman_collection.json' -e QA.postman_environment.json -d testdata.csv -r cli,htmlextra --reporter-htmlextra-export ./newman/index.html```
