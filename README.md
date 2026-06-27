@@ -45,12 +45,12 @@ You can run the Project on your local system for that:
 5. Run the Newman Command:
    ```
    newman run 'Inwarranty-flow collection Copy.postman_collection.json'\ -e QA.postman-environment.json\-d testdata.csv\-r cli,htmlextra\--reporter-htmlextra-export ./newman/index.html
-   ```
-Note Below command to be added in Jenkins if you plan to run
+   ```bash
+## If you plan to run this job from Jenkins, use the following command: ##
     ```
     newman run 'Inwarranty-flow collection Copy.postman_collection.json' -e QA.postman_environment.json -d testdata.csv -r cli,htmlextra --reporter-htmlextra-export ./newman/index.html```
-    Update: Below command is used to xml report in addition to html report
-    ```
+## Generate Both HTML and JUnit XML Reports ##
+    ```bash
     newman run 'Inwarranty-flow collection Copy.postman_collection.json' -e QA.postman_environment.json -d testdata.csv -r cli,htmlextra,junit --reporter-htmlextra-export ./newman/index.html --reporter-junit-export ./newman/result.xml 
     ```
 ## Project Structure ##
