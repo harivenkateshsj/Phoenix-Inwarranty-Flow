@@ -50,7 +50,7 @@ You can run the Project on your local system for that:
     ```
     newman run 'Inwarranty-flow collection Copy.postman_collection.json' -e QA.postman_environment.json -d testdata.csv -r cli,htmlextra --reporter-htmlextra-export ./newman/index.html```
 ## Generate Both HTML and JUnit XML Reports ##
-    ```bash
+    ```
     newman run 'Inwarranty-flow collection Copy.postman_collection.json' -e QA.postman_environment.json -d testdata.csv -r cli,htmlextra,junit --reporter-htmlextra-export ./newman/index.html --reporter-junit-export ./newman/result.xml 
     ```
 ## Project Structure ##
