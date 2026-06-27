@@ -48,8 +48,7 @@ You can run the Project on your local system for that:
    ```
 Note Below command to be added in Jenkins if you plan to run
     ```
-    newman run 'Inwarranty-flow collection Copy.postman_collection.json' -e QA.postman_environment.json -d testdata.csv -r cli,htmlextra --reporter-htmlextra-export ./newman/index.html
-    ```
+    newman run 'Inwarranty-flow collection Copy.postman_collection.json' -e QA.postman_environment.json -d testdata.csv -r cli,htmlextra --reporter-htmlextra-export ./newman/index.html```
 ## Project Structure ##
 ```
 Phoenix Inwarranty Flow
